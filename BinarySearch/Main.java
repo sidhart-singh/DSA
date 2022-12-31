@@ -5,7 +5,13 @@ public class Main {
         // SplitArrayLargestSum sals = new SplitArrayLargestSum();
         // System.out.println(sals.binarySearch());
 
-        MedianOfTwoSortedArrays mtsa = new MedianOfTwoSortedArrays();
-        System.out.println(mtsa.binarySearch());
+        // MedianOfTwoSortedArrays mtsa = new MedianOfTwoSortedArrays();
+        // System.out.println(mtsa.binarySearch());
+
+        // SearchSortedRotatedMatrix ssrm = new SearchSortedRotatedMatrix();
+        // System.out.println(ssrm.binarySearch());
+
+        NthDigit nd = new NthDigit();
+        System.out.println(nd.findNthDigit());
     }
 }

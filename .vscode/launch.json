@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BinaryTreeDemo",
+            "request": "launch",
+            "mainClass": "BinaryTree.BinaryTreeDemo",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch DequeDemo",
+            "request": "launch",
+            "mainClass": "Deque.DequeDemo",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
             "name": "Launch SplitArrayLargestSum",
             "request": "launch",
             "mainClass": "BinarySearch.SplitArrayLargestSum",
