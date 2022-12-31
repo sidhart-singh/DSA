@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch SplitArrayLargestSum",
+            "request": "launch",
+            "mainClass": "BinarySearch.SplitArrayLargestSum",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "name": "C/C++: clang++ build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: clang++ build active file"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "BinarySearch.Main",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch PackageDemo",
+            "request": "launch",
+            "mainClass": "Java.Practical.PackageDemo",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodOverriding",
+            "request": "launch",
+            "mainClass": "Java.Practical.MethodOverriding",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch HashSetCompare",
+            "request": "launch",
+            "mainClass": "Java.Practical.HashSetCompare",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringSort",
+            "request": "launch",
+            "mainClass": "Java.Practical.StringSort",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckingAccount",
+            "request": "launch",
+            "mainClass": "Java.Practical.CheckingAccount",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practical",
+            "request": "launch",
+            "mainClass": "Java.Practical",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Student",
+            "request": "launch",
+            "mainClass": "Java.Assignment_I.Student",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayListDemo",
+            "request": "launch",
+            "mainClass": "Java.Assignment_I.ArrayListDemo",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch PriorityQueueDemo3",
+            "request": "launch",
+            "mainClass": "Java.PriorityQueueDemo3",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch PriorityQueueDemo3",
+            "request": "launch",
+            "mainClass": "Java.Assignment_K.PriorityQueueDemo3",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch PriorityQueueDemo2",
+            "request": "launch",
+            "mainClass": "Java.Assignment_K.PriorityQueueDemo2",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Java.Assignment_J.Main",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterfaceCalculator",
+            "request": "launch",
+            "mainClass": "Java.Assignment_G.InterfaceCalculator",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch AbstractBank",
+            "request": "launch",
+            "mainClass": "Java.Assignment_G.AbstractBank",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "GFG.Main",
+            "projectName": "DSA_daa39ebe"
+        }
+    ]
+}
