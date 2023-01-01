@@ -269,6 +269,8 @@ public class BinaryTreeDemo {
         while(!queue.isEmpty()){
             Pair current = queue.poll();
 
+            map.put(current.hd, current.node.data);
+
             if(current.node.left != null) {
                 queue.add(new Pair(current.hd - 1, current.node.left));
             }
@@ -292,7 +294,7 @@ public class BinaryTreeDemo {
     static void convertToDLL(Node root){
         if(root == null)
             return;
-            
+
         /* InOrder : LeftNodeRight */
         // Left
         convertToDLL(root.left);
@@ -309,6 +311,21 @@ public class BinaryTreeDemo {
 
         // Right
         convertToDLL(root.right);
+    }
+
+    // Diameter : Maximum distance between :
+    // diameter variable will store the result
+    static int diameter = 0;
+    static int diameter (Node root) {
+        if (root == null)
+            return 0;
+        
+        int leftHeight = height(root.left);
+        int rightHeight = height(root.right);
+
+        diameter = Math.max(diameter, 1 + leftHeight + rightHeight);
+
+        return 1 + Math.max(leftHeight, rightHeight);
     }
 
 }
