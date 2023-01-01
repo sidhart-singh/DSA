@@ -29,7 +29,10 @@ public class BinaryTreeDemo {
 
         Node root = createTree();
         // rightView(root);
-        topView(root);
+        // topView(root);
+
+        burn(root, 3);
+        System.out.println("Minimum time to burn: " + minTimeToBurn);
     }
 
     static Node createTree () {
@@ -326,6 +329,50 @@ public class BinaryTreeDemo {
         diameter = Math.max(diameter, 1 + leftHeight + rightHeight);
 
         return 1 + Math.max(leftHeight, rightHeight);
+    }
+
+    // wrapper class for depth : for recursion
+    private static class Depth {
+        int d;
+        public Depth(int depth){
+            this.d = depth;
+        }
+    }
+
+    private static int minTimeToBurn = 0;
+    private static int burn(Node root, int key){
+        Depth depth = new Depth(-1);
+        burnUtil(root, key, depth);
+
+        return minTimeToBurn;
+    }
+
+    private static int burnUtil(Node root, int key, Depth depth) {
+        if (root == null)
+            return 0;
+        if(root.data == key){
+            depth.d = 1;
+            return 1;
+        }
+
+        Depth leftDepth = new Depth(-1);
+        Depth rightDepth = new Depth(-1);
+
+        int leftHeight = burnUtil(root.left, key, leftDepth);
+        int rightHeight = burnUtil(root.right, key, rightDepth);
+
+        // Key is present in left subtree
+        if(leftDepth.d != -1){
+            minTimeToBurn = Math.max(minTimeToBurn, leftDepth.d + 1 + rightHeight);
+            depth.d = leftDepth.d + 1;
+        } 
+        // Key is present in right subtree
+        else {
+            minTimeToBurn = Math.max(minTimeToBurn, rightDepth.d + 1 + leftHeight);
+            depth.d = rightDepth.d + 1;
+        }
+
+        return Math.max(leftHeight, rightHeight) + 1;
     }
 
 }
