@@ -63,8 +63,8 @@ public class BinaryTree {
             return;
 
         System.out.println(root.data);
-        inOrder(root.left);
-        inOrder(root.right);
+        preOrder(root.left);
+        preOrder(root.right);
     }
 
     public void postOrder (Node root) {
