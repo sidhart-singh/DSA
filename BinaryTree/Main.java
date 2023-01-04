@@ -16,8 +16,10 @@ public class Main {
         // SortedArrayToBST satb = new SortedArrayToBST();
         // System.out.println(Arrays.toString(satb.sortedArrayToBST()));
 
-        Node root = bt.createTree();
-        ValidateBST vbst = new ValidateBST();
-        System.out.println(String.valueOf(vbst.isValidBST(root)));
+        // Node root = bt.createTree();
+        // ValidateBST vbst = new ValidateBST();
+        // System.out.println(String.valueOf(vbst.isValidBST(root)));
+
+        
     }
 }
