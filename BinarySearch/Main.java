@@ -1,5 +1,7 @@
 package BinarySearch;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         // SplitArrayLargestSum sals = new SplitArrayLargestSum();
@@ -11,7 +13,10 @@ public class Main {
         // SearchSortedRotatedMatrix ssrm = new SearchSortedRotatedMatrix();
         // System.out.println(ssrm.binarySearch());
 
-        NthDigit nd = new NthDigit();
-        System.out.println(nd.findNthDigit());
+        // NthDigit nd = new NthDigit();
+        // System.out.println(nd.findNthDigit());
+
+        FirstAndLastIndex fali = new FirstAndLastIndex();
+        System.out.println(Arrays.toString(fali.searchRange()));
     }
 }
