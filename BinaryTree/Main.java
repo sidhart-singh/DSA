@@ -13,7 +13,11 @@ public class Main {
         // isBalanced isBalanced = new isBalanced();
         // System.out.println("isBalanced: " + Arrays.toString(isBalanced.isBalancedUtil(root)));
 
-        SortedArrayToBST satb = new SortedArrayToBST();
-        System.out.println(Arrays.toString(satb.sortedArrayToBST()));
+        // SortedArrayToBST satb = new SortedArrayToBST();
+        // System.out.println(Arrays.toString(satb.sortedArrayToBST()));
+
+        Node root = bt.createTree();
+        ValidateBST vbst = new ValidateBST();
+        System.out.println(String.valueOf(vbst.isValidBST(root)));
     }
 }
