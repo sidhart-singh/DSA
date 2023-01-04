@@ -16,7 +16,10 @@ public class Main {
         // NthDigit nd = new NthDigit();
         // System.out.println(nd.findNthDigit());
 
-        FirstAndLastIndex fali = new FirstAndLastIndex();
-        System.out.println(Arrays.toString(fali.searchRange()));
+        // FirstAndLastIndex fali = new FirstAndLastIndex();
+        // System.out.println(Arrays.toString(fali.searchRange()));
+
+        CapacityToShipPackages ctsp = new CapacityToShipPackages();
+        System.out.println(ctsp.shipWithinDays());
     }
 }
