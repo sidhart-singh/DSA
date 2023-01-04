@@ -17,7 +17,7 @@ public class FirstAndLastIndex {
             int mid = low + ((high - low) >> 1);
 
             if(nums[mid] == target){
-                // firstIndex = mid;
+                firstIndex = mid;
                 high = mid - 1;
             }
             else if(nums[mid] < target)
