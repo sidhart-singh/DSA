@@ -93,7 +93,11 @@ class SplitArrayLargestSum {
 
     public int binarySearch() {
 
-        int low = Integer.MIN_VALUE;
+        // max ( nums[] )
+        int low = nums[nums.length - 1];
+
+        // sum ( nums[] )
+        // int high = Arrays.stream(nums).sum();
         int high = 0;
         for(int num : nums){
             high += num;
@@ -115,9 +119,5 @@ class SplitArrayLargestSum {
 
         return result;
     }
-
-    // public static void main(String[] args) {
-
-    // }
 
 }
