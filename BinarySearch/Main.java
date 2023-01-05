@@ -19,7 +19,10 @@ public class Main {
         // FirstAndLastIndex fali = new FirstAndLastIndex();
         // System.out.println(Arrays.toString(fali.searchRange()));
 
-        CapacityToShipPackages ctsp = new CapacityToShipPackages();
-        System.out.println(ctsp.shipWithinDays());
+        // CapacityToShipPackages ctsp = new CapacityToShipPackages();
+        // System.out.println(ctsp.shipWithinDays());
+
+        KokoEatingBananas keb = new KokoEatingBananas();
+        System.out.println(keb.minEatingSpeed());
     }
 }
