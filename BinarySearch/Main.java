@@ -22,7 +22,10 @@ public class Main {
         // CapacityToShipPackages ctsp = new CapacityToShipPackages();
         // System.out.println(ctsp.shipWithinDays());
 
-        KokoEatingBananas keb = new KokoEatingBananas();
-        System.out.println(keb.minEatingSpeed());
+        // KokoEatingBananas keb = new KokoEatingBananas();
+        // System.out.println(keb.minEatingSpeed());
+
+        mBouquets mb = new mBouquets();
+        System.out.println(mb.minDays());
     }
 }
