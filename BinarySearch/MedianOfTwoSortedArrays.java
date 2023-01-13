@@ -2,8 +2,8 @@ package BinarySearch;
 
 public class MedianOfTwoSortedArrays {
     
-    int[] nums1 = {  };
-    int[] nums2 = { 1 };
+    int[] nums1 = {  };     // a
+    int[] nums2 = { 1 };    // b
 
     public double binarySearch(){
 

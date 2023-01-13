@@ -24,7 +24,7 @@ public class kClosestElement {
         }
         int[] result = Arrays.copyOfRange(nums, low, low + k);
         return Arrays.stream(result)        // IntStream
-                    .boxed()          // Stream<Integer>
+                    .boxed()                // Stream<Integer>
                     .collect(Collectors.toList());
     }
 }
