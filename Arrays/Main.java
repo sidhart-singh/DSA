@@ -15,7 +15,10 @@ public class Main {
         // System.out.println(nodce.isItPossible());
         // nodce.tst();
 
-        kClosestElement kce = new kClosestElement();
-        System.out.println(kce.findClosestElements());
+        // kClosestElement kce = new kClosestElement();
+        // System.out.println(kce.findClosestElements());
+
+        FourSum fs = new FourSum();
+        System.out.println(fs.fourSum());
     }
 }
