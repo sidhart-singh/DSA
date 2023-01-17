@@ -18,7 +18,7 @@ public class Main {
         // kClosestElement kce = new kClosestElement();
         // System.out.println(kce.findClosestElements());
 
-        FourSum fs = new FourSum();
-        System.out.println(fs.fourSum());
+        FlipStringToMonotoneIncreasing fstmi = new FlipStringToMonotoneIncreasing();
+        System.out.println(fstmi.minFlipsMonoIncr());
     }
 }
