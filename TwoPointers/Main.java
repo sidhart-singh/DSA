@@ -33,7 +33,10 @@ public class Main {
         // System.out.println(new TripletsSumSmaller().tripletWithSmallerSum());
 
         // DutchNationalFlagProblem
-        System.out.println(Arrays.toString(new DutchNationalFlagProblem().sortColors()));
+        // System.out.println(Arrays.toString(new DutchNationalFlagProblem().sortColors()));
+
+        // FourSum fs = new FourSum();
+        // System.out.println(fs.fourSum());
 
     }
 }
