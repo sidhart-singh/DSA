@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
-public class zigzagLevelOrderTraversal {
+public class ZigzagLevelOrderTraversal {
     public List<List<Integer>> zigzagLevelOrder(Node root){
         
         List<List<Integer>> result = new ArrayList<>();
@@ -59,7 +59,7 @@ public class zigzagLevelOrderTraversal {
         root.left.left = newTreeNode(4);
         root.left.right = newTreeNode(5);
 
-        zigzagLevelOrderTraversal zlot = new zigzagLevelOrderTraversal();
+        ZigzagLevelOrderTraversal zlot = new ZigzagLevelOrderTraversal();
         System.out.println(zlot.zigzagLevelOrder(root));;
     }
 }
