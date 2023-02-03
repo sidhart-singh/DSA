@@ -75,12 +75,21 @@ public class VerticalOrderTraversal {
         while(!queue.isEmpty()){
             Tuple current = queue.poll();
 
+            // if map doesn't contains a value(TreeMap) for the key(hd) :
+            // create a new TreeMap as the value
             if(!map.containsKey(current.hd))
                 map.put(current.hd, new TreeMap<>());
             
+            // if map doesn't contains a value(PriorityQueue) for the key(hd) :
+            // create a new PriorityQueue as the value
             if(!map.get(current.hd).containsKey(current.level))
                 map.get(current.hd).put(current.level, new PriorityQueue<>());
 
+            /* 
+             * map.get(current.hd) :  TreeMap at (hd)
+             *    .get(current.level) : PriorityQueue at (level)
+             *    .add(current.node.data) : add data to the PriorityQueue(minHeap)
+             */
             map.get(current.hd).get(current.level).add(current.node.data);
 
             if(current.node.left != null)
@@ -90,10 +99,21 @@ public class VerticalOrderTraversal {
         }
 
         List<List<Integer>> result = new ArrayList<>();
+        // for each value in the TreeMap 'map' as 'imap'
         for(TreeMap<Integer, PriorityQueue<Integer>> imap : map.values()){
+            // 1. add an ArrayList (at the end : 
+            //    to be accessed with the index(size - 1))
             result.add(new ArrayList<>());
+
+            // 2. get the PriorityQueue from the 'imap' as 'pq'
             for(PriorityQueue<Integer> pq : imap.values()){
+
+                // 2.a add every value in pq to the arrayList at index(size - 1) of result
                 while(!pq.isEmpty()){
+                    /*
+                     * result.get(result.size() - 1) : ArrayList at index(size - 1)
+                     *       .add(pq.poll()) : add the smallest element
+                     */
                     result.get(result.size() - 1).add(pq.poll());
                 }
             }
