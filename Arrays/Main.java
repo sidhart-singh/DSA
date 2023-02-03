@@ -18,7 +18,16 @@ public class Main {
         // kClosestElement kce = new kClosestElement();
         // System.out.println(kce.findClosestElements());
 
-        FlipStringToMonotoneIncreasing fstmi = new FlipStringToMonotoneIncreasing();
-        System.out.println(fstmi.minFlipsMonoIncr());
+        // FlipStringToMonotoneIncreasing fstmi = new FlipStringToMonotoneIncreasing();
+        // System.out.println(fstmi.minFlipsMonoIncr());
+
+        LongestConsecutiveSequence lcs = new LongestConsecutiveSequence();
+        System.out.println(lcs.longestConsecutive());
+
+        // NextGreaterElementII ngeii = new NextGreaterElementII();
+        // System.out.println(Arrays.toString(ngeii.nextGreaterElements()));
+
+        // KFrequentElements kfe = new KFrequentElements();
+        // System.out.println(Arrays.toString(kfe.topKFrequentII()));
     }
 }

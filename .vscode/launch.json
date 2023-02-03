@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch zigzagLevelOrderTraversal",
+            "request": "launch",
+            "mainClass": "BinaryTree.zigzagLevelOrderTraversal",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Diameter",
+            "request": "launch",
+            "mainClass": "BinaryTree.Diameter",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConnectLevelOrderSibling",
+            "request": "launch",
+            "mainClass": "BinaryTree.ConnectLevelOrderSibling",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch GFG",
+            "request": "launch",
+            "mainClass": "BinaryTree.GFG",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumDepth",
+            "request": "launch",
+            "mainClass": "BinaryTree.MinimumDepth",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
+            "name": "Launch DesignBrowserHistory",
+            "request": "launch",
+            "mainClass": "Arrays.DesignBrowserHistory",
+            "projectName": "DSA_daa39ebe"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "Arrays.Main",

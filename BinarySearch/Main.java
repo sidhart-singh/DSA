@@ -25,7 +25,10 @@ public class Main {
         // KokoEatingBananas keb = new KokoEatingBananas();
         // System.out.println(keb.minEatingSpeed());
 
-        mBouquets mb = new mBouquets();
-        System.out.println(mb.minDays());
+        // mBouquets mb = new mBouquets();
+        // System.out.println(mb.minDays());
+
+        kClosestElement kce = new kClosestElement();
+        kce.kClosestTwoPointers();
     }
 }
