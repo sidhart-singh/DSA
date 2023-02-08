@@ -51,7 +51,10 @@ public class Main {
         // System.out.println(new MaxConsecutiveOnesIII().slidingWindow());
 
         // SubarrayProductLessThanK
-        System.out.println(new SubarrayProductLessThanK().numSubarrayProsuctLessThanK());
+        // System.out.println(new SubarrayProductLessThanK().numSubarrayProsuctLessThanK());
+
+        FruitsBasket fb = new FruitsBasket();
+        System.out.println(fb.totalFruits(new int[]{1,2,3,2,2}));
 
     }
 }
