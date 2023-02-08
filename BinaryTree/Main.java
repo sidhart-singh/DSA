@@ -26,11 +26,19 @@ public class Main {
         // ValidateBST vbst = new ValidateBST();
         // System.out.println(String.valueOf(vbst.isValidBST(root)));
 
+<<<<<<< HEAD
         Node root = newTreeNode(1);
         root.left = newTreeNode(7);
         root.right = newTreeNode(0);
         root.left.left = newTreeNode(7);
         root.left.right = newTreeNode(-8);
+=======
+        Node root = newTreeNode(10);
+        root.left = newTreeNode(20);
+        // root.right = newTreeNode(9);
+        // root.left.left = newTreeNode(15);
+        // root.left.right = newTreeNode(7);
+>>>>>>> 1a9cd2a (added MaxPathSum.java and main.java)
 
         // BoundaryTraversal bt = new BoundaryTraversal();
         // System.out.println(bt.boundaryTraversal(root));
@@ -38,8 +46,16 @@ public class Main {
         // VerticalOrderTraversal vot = new VerticalOrderTraversal();
         // System.out.println(vot.verticalTraverse(root));
 
+<<<<<<< HEAD
         MaximumLevelSum mls = new MaximumLevelSum();
         System.out.println(mls.maxLevelSum(root));
+=======
+        // MaximumLevelSum mls = new MaximumLevelSum();
+        // System.out.println(mls.maxLevelSum(root));
+
+        MaximumPathSum mps = new MaximumPathSum();
+        System.out.println(mps.maxPathSum(root));
+>>>>>>> 1a9cd2a (added MaxPathSum.java and main.java)
         
     }
 }
