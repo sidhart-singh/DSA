@@ -42,7 +42,11 @@ public class Main {
         // System.out.println(fmp.firstMissingPositive(new int[]{1}));
 
         NamingACompany nac = new NamingACompany();
+<<<<<<< HEAD
         System.out.println(nac.distinctNames(new String[]{"coffee","donuts","time","toffee"}));;
 >>>>>>> aa1723e (added NamingACompany.java and main())
+=======
+        System.out.println(nac.distinctNames1(new String[]{"coffee","donuts","time","toffee"}));;
+>>>>>>> 68525fd (Pull with rebase)
     }
 }

@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 
 public class NamingACompany {
-    public long distinctNames(String[] ideas) {
+    public long distinctNames1(String[] ideas) {
         
         HashMap<Character, HashSet<String>> wordMap = new HashMap<>();
         long result = 0;
@@ -38,5 +38,9 @@ public class NamingACompany {
         }
 
         return result;
+    }
+
+    public long distintNames(String[] ideas){
+        return 0;
     }
 }

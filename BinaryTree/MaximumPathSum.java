@@ -24,23 +24,6 @@ public class MaximumPathSum {
         return Math.max(leftSum, Math.max(rightSum, leftAndRightSum));
     }
 
-    public int maxPathSumUtilI(Node root){
-        if(root.left == null && root.right == null){
-            max = (max < root.data) ? root.data : max;
-            return root.data;
-        }
-
-        if(root.left != null){
-            int leftSum = maxPathSumUtilI(root.left);
-        }
-        if(root.right != null){
-            int rightSum = maxPathSumUtilI(root.right);
-        }
-
-        int currentSum = Math.max()
-        max = (max < )
-
-    }
     public int maxPathSum(Node root){
 
         int max = Integer.MIN_VALUE;

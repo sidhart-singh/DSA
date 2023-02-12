@@ -53,8 +53,11 @@ public class Main {
         // SubarrayProductLessThanK
         // System.out.println(new SubarrayProductLessThanK().numSubarrayProsuctLessThanK());
 
-        FruitsBasket fb = new FruitsBasket();
-        System.out.println(fb.totalFruits(new int[]{1,2,3,2,2}));
+        // FruitsBasket fb = new FruitsBasket();
+        // System.out.println(fb.totalFruits(new int[]{1,2,3,2,2}));
+
+        SubarraysOfKandAvgGTEtoT soka = new SubarraysOfKandAvgGTEtoT();
+        System.out.println(soka.numOfSubarrays(new int[]{11,13,17,23,29,31,7,5,2,3}, 3, 5));
 
     }
 }
