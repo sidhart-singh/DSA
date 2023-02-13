@@ -2,6 +2,8 @@ package Arrays;
 
 import java.util.Arrays;
 
+import SlidingWindow.ContainsDuplicateII;
+
 public class Main {
     public static void main(String[] args) {
         // System.out.println((new BrickWall().leastBricks()));
@@ -31,8 +33,11 @@ public class Main {
         // FirstMissingPositive fmp = new FirstMissingPositive();
         // System.out.println(fmp.firstMissingPositive(new int[]{1}));
 
-        NamingACompany nac = new NamingACompany();
-        System.out.println(nac.distinctNames(new String[]{"coffee","donuts","time","toffee"}));;
-        System.out.println(nac.distinctNames1(new String[]{"coffee","donuts","time","toffee"}));;
+        // NamingACompany nac = new NamingACompany();
+        // System.out.println(nac.distinctNames(new String[]{"coffee","donuts","time","toffee"}));
+        // System.out.println(nac.distinctNames1(new String[]{"coffee","donuts","time","toffee"}));
+
+        ContainsDuplicateII cd2 = new ContainsDuplicateII();
+        System.out.println(cd2.containsNearbyDuplicate(new int[]{1,2,3,1,2,3}, 2));
     }
 }
