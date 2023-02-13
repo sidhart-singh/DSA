@@ -40,7 +40,10 @@ public class NamingACompany {
         return result;
     }
 
-    public long distintNames(String[] ideas){
+    public long distinctNames(String[] ideas){
+
+        // TODO: Use Set<String>[26] and use the indices for hashing with characters
+         
         return 0;
     }
 }
