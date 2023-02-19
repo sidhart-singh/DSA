@@ -37,7 +37,10 @@ public class Main {
         // System.out.println(nac.distinctNames(new String[]{"coffee","donuts","time","toffee"}));
         // System.out.println(nac.distinctNames1(new String[]{"coffee","donuts","time","toffee"}));
 
-        ContainsDuplicateII cd2 = new ContainsDuplicateII();
-        System.out.println(cd2.containsNearbyDuplicate(new int[]{1,2,3,1,2,3}, 2));
+        // ContainsDuplicateII cd2 = new ContainsDuplicateII();
+        // System.out.println(cd2.containsNearbyDuplicate(new int[]{1,2,3,1,2,3}, 2));
+
+        NumMatrix nm = new NumMatrix(new int[][]{{3, 0, 1, 4, 2}, {5, 6, 3, 2, 1}, {1, 2, 0, 1, 5}, {4, 1, 0, 1, 7}, {1, 0, 3, 0, 5}});
+        System.out.println(nm.sumRegion(1, 1, 2, 1));
     }
 }
