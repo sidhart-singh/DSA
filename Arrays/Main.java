@@ -40,7 +40,10 @@ public class Main {
         // ContainsDuplicateII cd2 = new ContainsDuplicateII();
         // System.out.println(cd2.containsNearbyDuplicate(new int[]{1,2,3,1,2,3}, 2));
 
-        NumMatrix nm = new NumMatrix(new int[][]{{3, 0, 1, 4, 2}, {5, 6, 3, 2, 1}, {1, 2, 0, 1, 5}, {4, 1, 0, 1, 7}, {1, 0, 3, 0, 5}});
-        System.out.println(nm.sumRegion(1, 1, 2, 1));
+        // NumMatrix nm = new NumMatrix(new int[][]{{3, 0, 1, 4, 2}, {5, 6, 3, 2, 1}, {1, 2, 0, 1, 5}, {4, 1, 0, 1, 7}, {1, 0, 3, 0, 5}});
+        // System.out.println(nm.sumRegion(1, 1, 2, 1));
+
+        RotateArray ra = new RotateArray();
+        ra.rotate(new int[]{1,2}, 5);
     }
 }
