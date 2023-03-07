@@ -28,7 +28,13 @@ public class Main {
         // mBouquets mb = new mBouquets();
         // System.out.println(mb.minDays());
 
-        kClosestElement kce = new kClosestElement();
-        kce.kClosestTwoPointers();
+        // kClosestElement kce = new kClosestElement();
+        // kce.kClosestTwoPointers();
+
+        // SingleElementInASortedArray seiasa = new SingleElementInASortedArray();
+        // System.out.println(seiasa.singleNonDuplicate(new int[]{3,3,7,7,10,11,11}));
+
+        FindPeakElement fpe = new FindPeakElement();
+        System.out.println(fpe.findPeakElement(new int[]{1,2}));
     }
 }
