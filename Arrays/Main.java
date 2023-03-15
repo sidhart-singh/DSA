@@ -43,7 +43,18 @@ public class Main {
         // NumMatrix nm = new NumMatrix(new int[][]{{3, 0, 1, 4, 2}, {5, 6, 3, 2, 1}, {1, 2, 0, 1, 5}, {4, 1, 0, 1, 7}, {1, 0, 3, 0, 5}});
         // System.out.println(nm.sumRegion(1, 1, 2, 1));
 
-        RotateArray ra = new RotateArray();
-        ra.rotate(new int[]{1,2}, 5);
+        // RotateArray ra = new RotateArray();
+        // ra.rotate(new int[]{1,2}, 5);
+
+        // RemoveDupliacteSortedArrayII rdsaii = new RemoveDupliacteSortedArrayII();
+        // System.out.println(rdsaii.removeDuplicates(new int[]{1,1,1,2,2,2,3,3}));
+
+
+        // MaximumPerformanceOfTeam mpot = new MaximumPerformanceOfTeam();
+        // System.out.println(mpot.maxPerformance(6, new int[]{2,10,3,1,5,8}, new int[]{5,4,3,9,7,2}, 2));
+    
+    
+        FindAllDuplicates fad = new FindAllDuplicates();
+        System.out.println(fad.findDuplicates(new int[]{4,3,2,7,8,2,3,1}));
     }
 }
