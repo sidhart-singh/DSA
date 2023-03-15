@@ -56,8 +56,11 @@ public class Main {
         // FruitsBasket fb = new FruitsBasket();
         // System.out.println(fb.totalFruits(new int[]{1,2,3,2,2}));
 
-        SubarraysOfKandAvgGTEtoT soka = new SubarraysOfKandAvgGTEtoT();
-        System.out.println(soka.numOfSubarrays(new int[]{11,13,17,23,29,31,7,5,2,3}, 3, 5));
+        // SubarraysOfKandAvgGTEtoT soka = new SubarraysOfKandAvgGTEtoT();
+        // System.out.println(soka.numOfSubarrays(new int[]{11,13,17,23,29,31,7,5,2,3}, 3, 5));
+
+        LongestTurbulantSubarray lts = new LongestTurbulantSubarray();
+        System.out.println(lts.maxTurbulenceSize(new int[]{9,4,2,10,7,8,8,1,9}));
 
     }
 }
