@@ -34,7 +34,11 @@ public class Main {
         // SingleElementInASortedArray seiasa = new SingleElementInASortedArray();
         // System.out.println(seiasa.singleNonDuplicate(new int[]{3,3,7,7,10,11,11}));
 
-        FindPeakElement fpe = new FindPeakElement();
-        System.out.println(fpe.findPeakElement(new int[]{1,2}));
+        // FindPeakElement fpe = new FindPeakElement();
+        // System.out.println(fpe.findPeakElement(new int[]{1,2}));
+
+        FindMinimumSortedRotated fmsr = new FindMinimumSortedRotated();
+        System.out.println(fmsr.findMin(new int[]{3,1,3}));
+
     }
 }
