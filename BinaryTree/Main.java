@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Main {
 
-    public static Node newTreeNode(int value){
+    public static Node newTreeNode(int value) {
         return new Node(value);
     }
 
@@ -13,11 +13,13 @@ public class Main {
 
         // BinaryTree bt = new BinaryTree();
         // Node root = bt.createTree();
-        
-        // System.out.println("Count of Good Nodes: " + CountGoodNodes.countGoodNode(root, root.data));;
-        
+
+        // System.out.println("Count of Good Nodes: " +
+        // CountGoodNodes.countGoodNode(root, root.data));;
+
         // isBalanced isBalanced = new isBalanced();
-        // System.out.println("isBalanced: " + Arrays.toString(isBalanced.isBalancedUtil(root)));
+        // System.out.println("isBalanced: " +
+        // Arrays.toString(isBalanced.isBalancedUtil(root)));
 
         // SortedArrayToBST satb = new SortedArrayToBST();
         // System.out.println(Arrays.toString(satb.sortedArrayToBST()));
@@ -26,19 +28,17 @@ public class Main {
         // ValidateBST vbst = new ValidateBST();
         // System.out.println(String.valueOf(vbst.isValidBST(root)));
 
-<<<<<<< HEAD
-        Node root = newTreeNode(1);
-        root.left = newTreeNode(7);
-        root.right = newTreeNode(0);
-        root.left.left = newTreeNode(7);
-        root.left.right = newTreeNode(-8);
-=======
-        Node root = newTreeNode(10);
-        root.left = newTreeNode(20);
+        // Node root = newTreeNode(1);
+        // root.left = newTreeNode(7);
+        // root.right = newTreeNode(0);
+        // root.left.left = newTreeNode(7);
+        // root.left.right = newTreeNode(-8);
+
+        // Node root = newTreeNode(10);
+        // root.left = newTreeNode(20);
         // root.right = newTreeNode(9);
         // root.left.left = newTreeNode(15);
         // root.left.right = newTreeNode(7);
->>>>>>> 1a9cd2a (added MaxPathSum.java and main.java)
 
         // BoundaryTraversal bt = new BoundaryTraversal();
         // System.out.println(bt.boundaryTraversal(root));
@@ -46,16 +46,16 @@ public class Main {
         // VerticalOrderTraversal vot = new VerticalOrderTraversal();
         // System.out.println(vot.verticalTraverse(root));
 
-<<<<<<< HEAD
-        MaximumLevelSum mls = new MaximumLevelSum();
-        System.out.println(mls.maxLevelSum(root));
-=======
         // MaximumLevelSum mls = new MaximumLevelSum();
         // System.out.println(mls.maxLevelSum(root));
 
-        MaximumPathSum mps = new MaximumPathSum();
-        System.out.println(mps.maxPathSum(root));
->>>>>>> 1a9cd2a (added MaxPathSum.java and main.java)
-        
+        // MaximumPathSum mps = new MaximumPathSum();
+        // System.out.println(mps.maxPathSum(root));
+
+        // PathInZigzagLabelledBT pizlbt = new PathInZigzagLabelledBT();
+        // pizlbt.pathInZigZagTree(14);
+
+        MaximumWidthOfBinaryTree mwobt = new MaximumWidthOfBinaryTree();
+        System.out.println(mwobt.widthOfBinaryTree(null));
     }
 }
