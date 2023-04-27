@@ -34,13 +34,16 @@ public class Main {
         // System.out.println(fmp.firstMissingPositive(new int[]{1}));
 
         // NamingACompany nac = new NamingACompany();
-        // System.out.println(nac.distinctNames(new String[]{"coffee","donuts","time","toffee"}));
-        // System.out.println(nac.distinctNames1(new String[]{"coffee","donuts","time","toffee"}));
+        // System.out.println(nac.distinctNames(new
+        // String[]{"coffee","donuts","time","toffee"}));
+        // System.out.println(nac.distinctNames1(new
+        // String[]{"coffee","donuts","time","toffee"}));
 
         // ContainsDuplicateII cd2 = new ContainsDuplicateII();
         // System.out.println(cd2.containsNearbyDuplicate(new int[]{1,2,3,1,2,3}, 2));
 
-        // NumMatrix nm = new NumMatrix(new int[][]{{3, 0, 1, 4, 2}, {5, 6, 3, 2, 1}, {1, 2, 0, 1, 5}, {4, 1, 0, 1, 7}, {1, 0, 3, 0, 5}});
+        // NumMatrix nm = new NumMatrix(new int[][]{{3, 0, 1, 4, 2}, {5, 6, 3, 2, 1},
+        // {1, 2, 0, 1, 5}, {4, 1, 0, 1, 7}, {1, 0, 3, 0, 5}});
         // System.out.println(nm.sumRegion(1, 1, 2, 1));
 
         // RotateArray ra = new RotateArray();
@@ -49,12 +52,14 @@ public class Main {
         // RemoveDupliacteSortedArrayII rdsaii = new RemoveDupliacteSortedArrayII();
         // System.out.println(rdsaii.removeDuplicates(new int[]{1,1,1,2,2,2,3,3}));
 
-
         // MaximumPerformanceOfTeam mpot = new MaximumPerformanceOfTeam();
-        // System.out.println(mpot.maxPerformance(6, new int[]{2,10,3,1,5,8}, new int[]{5,4,3,9,7,2}, 2));
-    
-    
-        FindAllDuplicates fad = new FindAllDuplicates();
-        System.out.println(fad.findDuplicates(new int[]{4,3,2,7,8,2,3,1}));
+        // System.out.println(mpot.maxPerformance(6, new int[]{2,10,3,1,5,8}, new
+        // int[]{5,4,3,9,7,2}, 2));
+
+        // FindAllDuplicates fad = new FindAllDuplicates();
+        // System.out.println(fad.findDuplicates(new int[]{4,3,2,7,8,2,3,1}));
+
+        MergeAlternatively t = new MergeAlternatively();
+        System.out.println(t.mergeAlternately("abcd", "ef"));
     }
 }
