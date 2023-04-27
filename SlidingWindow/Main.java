@@ -1,5 +1,7 @@
 package SlidingWindow;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String args[]) {
 
@@ -35,7 +37,7 @@ public class Main {
         /* Permutation Of String */
         // FrequencyOfMostFrequentElement fomfe = new FrequencyOfMostFrequentElement();
         // System.out.println(fomfe.slidingWindow());
-        
+
         /* MinimumSizeSubarraySum */
         // MinimumSizeSubarraySum msss = new MinimumSizeSubarraySum();
         // System.out.println(msss.slidingWindow());
@@ -43,7 +45,7 @@ public class Main {
         /* RepeatedDNASequence */
         // RepeatedDNASequence rds = new RepeatedDNASequence();
         // System.out.println(rds.slidingWindow());
-        
+
         // System.out.println(new SubarraySumEqualK().slidingWindow());
 
         // System.out.println(new KClosestElements().slidingWindow());
@@ -51,16 +53,21 @@ public class Main {
         // System.out.println(new MaxConsecutiveOnesIII().slidingWindow());
 
         // SubarrayProductLessThanK
-        // System.out.println(new SubarrayProductLessThanK().numSubarrayProsuctLessThanK());
+        // System.out.println(new
+        // SubarrayProductLessThanK().numSubarrayProsuctLessThanK());
 
         // FruitsBasket fb = new FruitsBasket();
         // System.out.println(fb.totalFruits(new int[]{1,2,3,2,2}));
 
         // SubarraysOfKandAvgGTEtoT soka = new SubarraysOfKandAvgGTEtoT();
-        // System.out.println(soka.numOfSubarrays(new int[]{11,13,17,23,29,31,7,5,2,3}, 3, 5));
+        // System.out.println(soka.numOfSubarrays(new int[]{11,13,17,23,29,31,7,5,2,3},
+        // 3, 5));
 
-        LongestTurbulantSubarray lts = new LongestTurbulantSubarray();
-        System.out.println(lts.maxTurbulenceSize(new int[]{9,4,2,10,7,8,8,1,9}));
+        // LongestTurbulantSubarray lts = new LongestTurbulantSubarray();
+        // System.out.println(lts.maxTurbulenceSize(new int[]{9,4,2,10,7,8,8,1,9}));
+
+        SlidingSubarrayBeauty ssb = new SlidingSubarrayBeauty();
+        System.out.println(Arrays.toString(ssb.getSubarrayBeauty(new int[] { -3, 1, 2, -3, 0, -3 }, 2, 1)));
 
     }
 }
