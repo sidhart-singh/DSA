@@ -1,287 +1,420 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Launch zigzagLevelOrderTraversal",
-            "request": "launch",
-            "mainClass": "BinaryTree.zigzagLevelOrderTraversal",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch Diameter",
-            "request": "launch",
-            "mainClass": "BinaryTree.Diameter",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch ConnectLevelOrderSibling",
-            "request": "launch",
-            "mainClass": "BinaryTree.ConnectLevelOrderSibling",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch GFG",
-            "request": "launch",
-            "mainClass": "BinaryTree.GFG",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch MinimumDepth",
-            "request": "launch",
-            "mainClass": "BinaryTree.MinimumDepth",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch DesignBrowserHistory",
-            "request": "launch",
-            "mainClass": "Arrays.DesignBrowserHistory",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch Main",
-            "request": "launch",
-            "mainClass": "SlidingWindow.Main",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch Solution",
-            "request": "launch",
-            "mainClass": "Recursion.Solution",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch CombinationSumI",
-            "request": "launch",
-            "mainClass": "Recursion.CombinationSumI",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch CombinationSumII",
-            "request": "launch",
-            "mainClass": "Recursion.CombinationSumII",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch test",
-            "request": "launch",
-            "mainClass": "Recursion.test",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch zigzagLevelOrderTraversal",
-            "request": "launch",
-            "mainClass": "BinaryTree.zigzagLevelOrderTraversal",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch Diameter",
-            "request": "launch",
-            "mainClass": "BinaryTree.Diameter",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch ConnectLevelOrderSibling",
-            "request": "launch",
-            "mainClass": "BinaryTree.ConnectLevelOrderSibling",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch GFG",
-            "request": "launch",
-            "mainClass": "BinaryTree.GFG",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch MinimumDepth",
-            "request": "launch",
-            "mainClass": "BinaryTree.MinimumDepth",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch DesignBrowserHistory",
-            "request": "launch",
-            "mainClass": "Arrays.DesignBrowserHistory",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch Main",
-            "request": "launch",
-            "mainClass": "Arrays.Main",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch Main",
-            "request": "launch",
-            "mainClass": "BinaryTree.Main",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch BinaryTreeDemo",
-            "request": "launch",
-            "mainClass": "BinaryTree.BinaryTreeDemo",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch DequeDemo",
-            "request": "launch",
-            "mainClass": "Deque.DequeDemo",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch SplitArrayLargestSum",
-            "request": "launch",
-            "mainClass": "BinarySearch.SplitArrayLargestSum",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "name": "C/C++: clang++ build and debug active file",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": [],
-            "stopAtEntry": true,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb",
-            "preLaunchTask": "C/C++: clang++ build active file"
-        },
-        {
-            "type": "java",
-            "name": "Launch Main",
-            "request": "launch",
-            "mainClass": "BinarySearch.Main",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch PackageDemo",
-            "request": "launch",
-            "mainClass": "Java.Practical.PackageDemo",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch MethodOverriding",
-            "request": "launch",
-            "mainClass": "Java.Practical.MethodOverriding",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch HashSetCompare",
-            "request": "launch",
-            "mainClass": "Java.Practical.HashSetCompare",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch StringSort",
-            "request": "launch",
-            "mainClass": "Java.Practical.StringSort",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch CheckingAccount",
-            "request": "launch",
-            "mainClass": "Java.Practical.CheckingAccount",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch Practical",
-            "request": "launch",
-            "mainClass": "Java.Practical",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch Student",
-            "request": "launch",
-            "mainClass": "Java.Assignment_I.Student",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch ArrayListDemo",
-            "request": "launch",
-            "mainClass": "Java.Assignment_I.ArrayListDemo",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch PriorityQueueDemo3",
-            "request": "launch",
-            "mainClass": "Java.PriorityQueueDemo3",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch PriorityQueueDemo3",
-            "request": "launch",
-            "mainClass": "Java.Assignment_K.PriorityQueueDemo3",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch PriorityQueueDemo2",
-            "request": "launch",
-            "mainClass": "Java.Assignment_K.PriorityQueueDemo2",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch Main",
-            "request": "launch",
-            "mainClass": "Java.Assignment_J.Main",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch InterfaceCalculator",
-            "request": "launch",
-            "mainClass": "Java.Assignment_G.InterfaceCalculator",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch AbstractBank",
-            "request": "launch",
-            "mainClass": "Java.Assignment_G.AbstractBank",
-            "projectName": "DSA_daa39ebe"
-        },
-        {
-            "type": "java",
-            "name": "Launch Main",
-            "request": "launch",
-            "mainClass": "GFG.Main",
-            "projectName": "DSA_daa39ebe"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Trie.Main",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "_2DArrays.Main",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Sorting.Main",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Recursion.Main",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "String.test",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "String.Main",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "ConsecutiveRepeating",
+      "request": "launch",
+      "mainClass": "String.ConsecutiveRepeating",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "ChildrenSumProperty",
+      "request": "launch",
+      "mainClass": "BinaryTree.ChildrenSumProperty",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "SmallestStringFromLeaf",
+      "request": "launch",
+      "mainClass": "BinaryTree.SmallestStringFromLeaf",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "MaximumWidthOfBinaryTree",
+      "request": "launch",
+      "mainClass": "BinaryTree.MaximumWidthOfBinaryTree",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "SmallestStringStringFromLeaf",
+      "request": "launch",
+      "mainClass": "BinaryTree.SmallestStringStringFromLeaf",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "MinimumBadness",
+      "request": "launch",
+      "mainClass": "CP.MinimumBadness",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "TrappingRainwater",
+      "request": "launch",
+      "mainClass": "CP.TrappingRainwater",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "sqrt",
+      "request": "launch",
+      "mainClass": "BinarySearch.sqrt",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "ConstructBTFromInorderAndPostorder",
+      "request": "launch",
+      "mainClass": "BinaryTree.ConstructBTFromInorderAndPostorder",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "AsteroidCollision",
+      "request": "launch",
+      "mainClass": "Stack.AsteroidCollision",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "FindPeakElement",
+      "request": "launch",
+      "mainClass": "BinarySearch.FindPeakElement",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.Main",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "Graph.Main",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch zigzagLevelOrderTraversal",
+      "request": "launch",
+      "mainClass": "BinaryTree.zigzagLevelOrderTraversal",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch Diameter",
+      "request": "launch",
+      "mainClass": "BinaryTree.Diameter",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch ConnectLevelOrderSibling",
+      "request": "launch",
+      "mainClass": "BinaryTree.ConnectLevelOrderSibling",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch GFG",
+      "request": "launch",
+      "mainClass": "BinaryTree.GFG",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch MinimumDepth",
+      "request": "launch",
+      "mainClass": "BinaryTree.MinimumDepth",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch DesignBrowserHistory",
+      "request": "launch",
+      "mainClass": "Arrays.DesignBrowserHistory",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "SlidingWindow.Main",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch Solution",
+      "request": "launch",
+      "mainClass": "Recursion.Solution",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch CombinationSumI",
+      "request": "launch",
+      "mainClass": "Recursion.CombinationSumI",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch CombinationSumII",
+      "request": "launch",
+      "mainClass": "Recursion.CombinationSumII",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "Recursion.test",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch zigzagLevelOrderTraversal",
+      "request": "launch",
+      "mainClass": "BinaryTree.zigzagLevelOrderTraversal",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch Diameter",
+      "request": "launch",
+      "mainClass": "BinaryTree.Diameter",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch ConnectLevelOrderSibling",
+      "request": "launch",
+      "mainClass": "BinaryTree.ConnectLevelOrderSibling",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch GFG",
+      "request": "launch",
+      "mainClass": "BinaryTree.GFG",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch MinimumDepth",
+      "request": "launch",
+      "mainClass": "BinaryTree.MinimumDepth",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch DesignBrowserHistory",
+      "request": "launch",
+      "mainClass": "Arrays.DesignBrowserHistory",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "Arrays.Main",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "BinaryTree.Main",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch BinaryTreeDemo",
+      "request": "launch",
+      "mainClass": "BinaryTree.BinaryTreeDemo",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch DequeDemo",
+      "request": "launch",
+      "mainClass": "Deque.DequeDemo",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch SplitArrayLargestSum",
+      "request": "launch",
+      "mainClass": "BinarySearch.SplitArrayLargestSum",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "name": "C/C++: clang++ build and debug active file",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb",
+      "preLaunchTask": "C/C++: clang++ build active file"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "BinarySearch.Main",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch PackageDemo",
+      "request": "launch",
+      "mainClass": "Java.Practical.PackageDemo",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch MethodOverriding",
+      "request": "launch",
+      "mainClass": "Java.Practical.MethodOverriding",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch HashSetCompare",
+      "request": "launch",
+      "mainClass": "Java.Practical.HashSetCompare",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringSort",
+      "request": "launch",
+      "mainClass": "Java.Practical.StringSort",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch CheckingAccount",
+      "request": "launch",
+      "mainClass": "Java.Practical.CheckingAccount",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch Practical",
+      "request": "launch",
+      "mainClass": "Java.Practical",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch Student",
+      "request": "launch",
+      "mainClass": "Java.Assignment_I.Student",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayListDemo",
+      "request": "launch",
+      "mainClass": "Java.Assignment_I.ArrayListDemo",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch PriorityQueueDemo3",
+      "request": "launch",
+      "mainClass": "Java.PriorityQueueDemo3",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch PriorityQueueDemo3",
+      "request": "launch",
+      "mainClass": "Java.Assignment_K.PriorityQueueDemo3",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch PriorityQueueDemo2",
+      "request": "launch",
+      "mainClass": "Java.Assignment_K.PriorityQueueDemo2",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "Java.Assignment_J.Main",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch InterfaceCalculator",
+      "request": "launch",
+      "mainClass": "Java.Assignment_G.InterfaceCalculator",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch AbstractBank",
+      "request": "launch",
+      "mainClass": "Java.Assignment_G.AbstractBank",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "GFG.Main",
+      "projectName": "DSA_daa39ebe"
+    }
+  ]
 }

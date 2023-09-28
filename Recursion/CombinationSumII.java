@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class CombinationSumII {
-    public static List<List<Integer>> combinationSum2(int[] candidates, int target) {
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> results = new ArrayList<>();
         List<Integer> temp = new ArrayList<>();
 
@@ -16,19 +16,20 @@ public class CombinationSumII {
         return results;
     }
 
-    private static void backtrack(int[] candidates, int target, int index, int sum, List<Integer> temp, List<List<Integer>> results) {
-        if(sum == target){
+    private void backtrack(int[] candidates, int target, int index, int sum, List<Integer> temp,
+            List<List<Integer>> results) {
+        if (sum == target) {
             results.add(List.copyOf(temp));
             return;
         }
 
-        for(int i = index; i < candidates.length; i++){
-            if(i > index && candidates[i] == candidates[i - 1])
+        for (int i = index; i < candidates.length; i++) {
+            if (i > index && candidates[i] == candidates[i - 1])
                 continue;
-            
-            if(candidates[i] + sum > target)
+
+            if (candidates[i] + sum > target)
                 break;
-            
+
             temp.add(candidates[i]);
             sum += candidates[i];
 
@@ -36,14 +37,8 @@ public class CombinationSumII {
 
             sum -= temp.get(temp.size() - 1);
             temp.remove(temp.size() - 1);
-            
+
         }
 
-        
     }
-    public static void main (String args[])
-        {
-            int  arr[] = {2,5,2,1,2};
-            System.out.println( combinationSum2( arr, 4)); 
-        }
 }

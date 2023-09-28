@@ -1,6 +1,7 @@
 package SlidingWindow;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class Main {
     public static void main(String args[]) {
@@ -66,8 +67,11 @@ public class Main {
         // LongestTurbulantSubarray lts = new LongestTurbulantSubarray();
         // System.out.println(lts.maxTurbulenceSize(new int[]{9,4,2,10,7,8,8,1,9}));
 
-        SlidingSubarrayBeauty ssb = new SlidingSubarrayBeauty();
-        System.out.println(Arrays.toString(ssb.getSubarrayBeauty(new int[] { -3, 1, 2, -3, 0, -3 }, 2, 1)));
+        // SlidingSubarrayBeauty ssb = new SlidingSubarrayBeauty();
+        // System.out.println(Arrays.toString(ssb.getSubarrayBeauty(new int[] { -3, 1,
+        // 2, -3, 0, -3 }, 2, 1)));
 
+        LongestEqualSubarray les = new LongestEqualSubarray();
+        System.out.println(les.longestEqualSubarray(List.of(1, 1, 2, 2, 1, 1), 2));
     }
 }

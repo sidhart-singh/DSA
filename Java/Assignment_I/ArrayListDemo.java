@@ -10,15 +10,15 @@ public class ArrayListDemo {
         ArrayList<Integer> first = new ArrayList<>();
 
         Collections.addAll(first, 10, 20, 30, 40, 50);
-        
+
         System.out.println(first);
-        
+
         first.add(4, 60);
-        
+
         first.forEach(n -> System.out.println(n));
 
-        if(first.indexOf(30) == -1)
-            System.out.println("30 is not present");    
+        if (first.indexOf(30) == -1)
+            System.out.println("30 is not present");
         else
             System.out.println("Position of 30: " + first.indexOf(30));
 
@@ -31,23 +31,24 @@ public class ArrayListDemo {
         first.add(3, 999);
 
         System.out.println(first);
-        
-        System.out.println("Addition of 0th and 2nd element of first: " + Integer.sum(first.get(0), first.get(2)));
+
+        System.out.println("Addition of 0th and 2nd element of first: "
+                + Integer.sum(first.get(0), first.get(2)));
 
         first.set(0, 111);
 
         System.out.println(first);
 
         /* remove(Object o) */
-        first.remove(new Integer(-80));
+        first.remove(80);
 
         System.out.println("Count of elements in first: " + Integer.sum(first.size(), 1));
 
         /* Using Lambda */
         // first.sort((a, b) -> (a < b) ? -1 : 1);
 
-        /* Using Comparator.naturalOrder() method
-         * Collections doesn't have a naturalOrder()
+        /*
+         * Using Comparator.naturalOrder() method Collections doesn't have a naturalOrder()
          */
         first.sort(Comparator.naturalOrder());
         System.out.println("Ascending: " + first);

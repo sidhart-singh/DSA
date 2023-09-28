@@ -1,9 +1,5 @@
 package Arrays;
 
-import java.util.Arrays;
-
-import SlidingWindow.ContainsDuplicateII;
-
 public class Main {
     public static void main(String[] args) {
         // System.out.println((new BrickWall().leastBricks()));
@@ -59,7 +55,34 @@ public class Main {
         // FindAllDuplicates fad = new FindAllDuplicates();
         // System.out.println(fad.findDuplicates(new int[]{4,3,2,7,8,2,3,1}));
 
-        MergeAlternatively t = new MergeAlternatively();
-        System.out.println(t.mergeAlternately("abcd", "ef"));
+        // MergeAlternatively t = new MergeAlternatively();
+        // System.out.println(t.mergeAlternately("abcd", "ef"));
+
+        // NextPermutation np = new NextPermutation();
+        // np.nextPermutation(new int[] { 3, 2, 1 });
+
+        // Permutation per = new Permutation();
+        // per.permute(new int[] { 1, 1, 3 });
+
+        // Combinations com = new Combinations();
+        // com.combine(4, 2);
+
+        // PermutationII perII = new PermutationII();
+        // perII.permuteUniqueII(new int[] { 2, 2, 1, 1 });
+
+        // NumberOfSquarefulArrays nosa = new NumberOfSquarefulArrays();
+        // System.out.println(nosa.numSquarefulPerms(new int[] { 1, 17, 8 }));
+
+        // PredictTheWinner ptw = new PredictTheWinner();
+        // System.out.println(ptw.predictTheWinner(new int[] { 1, 5, 2 }));
+
+        // DetermineMinSumKAvoidingArray dms = new DetermineMinSumKAvoidingArray();
+        // dms.minimumSum(5, 4);
+
+        // GroupPeopleGivenGroupSize gpggs = new GroupPeopleGivenGroupSize();
+        // gpggs.groupThePeople(new int[] { 3, 3, 3, 3, 3, 1, 3 });
+
+        Candy c = new Candy();
+        c.candy(new int[] { 1, 3, 4, 5, 2 });
     }
 }

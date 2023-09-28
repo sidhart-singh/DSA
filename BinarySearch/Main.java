@@ -37,8 +37,13 @@ public class Main {
         // FindPeakElement fpe = new FindPeakElement();
         // System.out.println(fpe.findPeakElement(new int[]{1,2}));
 
-        FindMinimumSortedRotated fmsr = new FindMinimumSortedRotated();
-        System.out.println(fmsr.findMin(new int[]{3,1,3}));
+        // FindMinimumSortedRotated fmsr = new FindMinimumSortedRotated();
+        // System.out.println(fmsr.findMin(new int[]{3,1,3}));
 
+        // AllocateBooks ab = new AllocateBooks();
+        // ab.allocateBooks(3, 5, new int[] { 1, 2, 2, 3, 1 });
+
+        FindDuplicateNumber fdn = new FindDuplicateNumber();
+        System.out.println(fdn.findDuplicate(new int[] { 7, 9, 7, 4, 2, 8, 7, 7, 1, 5 }));
     }
 }

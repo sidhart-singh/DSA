@@ -5,9 +5,9 @@ import java.util.Map;
 
 public class Main {
 
-    public static Node newTreeNode(int value) {
-        return new Node(value);
-    }
+    // public static Node newTreeNode(int value) {
+    // return new Node(value);
+    // }
 
     public static void main(String[] args) {
 
@@ -55,7 +55,15 @@ public class Main {
         // PathInZigzagLabelledBT pizlbt = new PathInZigzagLabelledBT();
         // pizlbt.pathInZigZagTree(14);
 
-        MaximumWidthOfBinaryTree mwobt = new MaximumWidthOfBinaryTree();
-        System.out.println(mwobt.widthOfBinaryTree(null));
+        // MaximumWidthOfBinaryTree mwobt = new MaximumWidthOfBinaryTree();
+        // System.out.println(mwobt.widthOfBinaryTree(null));
+
+        // BinaryTree bt = new BinaryTree();
+        // Node root = bt.createTree();
+        // ChildrenSumProperty csp = new ChildrenSumProperty();
+        // csp.dfs(root, 0);
+
+        KthAncestorOfNode kaon = new KthAncestorOfNode();
+        System.out.println(kaon.getKthAncestor(3, 2));
     }
 }

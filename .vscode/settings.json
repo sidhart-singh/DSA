@@ -1,6 +1,7 @@
 {
-    "files.associations": {
-        "stdlib.h": "c"
-    },
-    "git.ignoreLimitWarning": true
+  "files.associations": {
+    "stdlib.h": "c"
+  },
+  "git.ignoreLimitWarning": true,
+  "java.debug.settings.onBuildFailureProceed": false
 }
