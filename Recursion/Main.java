@@ -1020,10 +1020,10 @@ public class Main {
         // { 3, 5, 6, 7, 4, 2 },
         // { 4, 3, 1, 0, 2, 0 }, { 3, 0, 5, 0, 20, 0 } });
 
-        // TODO: incomplete
-        MaxCompatibilityScoreSum mcss = new MaxCompatibilityScoreSum();
-        mcss.maxCompatibilitySum(new int[][] { { 1, 1, 0 }, { 1, 0, 1 }, { 0, 0, 1 } },
-                new int[][] { { 1, 0, 0 }, { 0, 0, 1 }, { 1, 1, 0 } });
+        // MaxCompatibilityScoreSum mcss = new MaxCompatibilityScoreSum();
+        // mcss.maxCompatibilitySum(new int[][] { { 1, 1, 0 }, { 1, 0, 1 }, { 0, 0, 1 }
+        // },
+        // new int[][] { { 1, 0, 0 }, { 0, 0, 1 }, { 1, 1, 0 } });
 
         // MaxAcheivableTransferRequests matr = new MaxAcheivableTransferRequests();
         // matr.maximumRequests(5, new int[][] { { 0, 1 }, { 1, 0 }, { 0, 1 }, { 1, 2 },
