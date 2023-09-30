@@ -82,7 +82,11 @@ public class Main {
         // GroupPeopleGivenGroupSize gpggs = new GroupPeopleGivenGroupSize();
         // gpggs.groupThePeople(new int[] { 3, 3, 3, 3, 3, 1, 3 });
 
-        Candy c = new Candy();
-        c.candy(new int[] { 1, 3, 4, 5, 2 });
+        // Candy c = new Candy();
+        // c.candy(new int[] { 1, 3, 4, 5, 2 });
+
+        ScoreAfterMarkingAllElements same = new ScoreAfterMarkingAllElements();
+        same.findScore(new int[] { 10, 44, 10, 8, 48, 30, 17, 38, 41, 27, 16, 33, 45, 45, 34, 30, 22, 3, 42, 42 });
+
     }
 }
