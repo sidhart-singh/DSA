@@ -8,6 +8,13 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
+      "mainClass": "Deque.Main",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
       "mainClass": "Trie.Main",
       "projectName": "DSA_daa39ebe"
     },
