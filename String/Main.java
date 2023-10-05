@@ -16,7 +16,15 @@ public class Main {
         // "leetcode" },
         // new String[] { "lo", "eo" });
 
-        RemoveDuplicateLetters rdl = new RemoveDuplicateLetters();
-        rdl.removeDuplicateLetters("cbacdcbc");
+        // RemoveDuplicateLetters rdl = new RemoveDuplicateLetters();
+        // rdl.removeDuplicateLetters("cbacdcbc");
+
+        // PartitionIntoMinDeciBinaryNumbers pimdbn = new
+        // PartitionIntoMinDeciBinaryNumbers();
+        // pimdbn.minPartitions("2734620983078873433");
+
+        MinOpsToMoveAllBallsToEachBox motmab = new MinOpsToMoveAllBallsToEachBox();
+        motmab.minOperations("001011");
+
     }
 }
