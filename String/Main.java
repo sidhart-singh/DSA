@@ -23,8 +23,10 @@ public class Main {
         // PartitionIntoMinDeciBinaryNumbers();
         // pimdbn.minPartitions("2734620983078873433");
 
-        MinOpsToMoveAllBallsToEachBox motmab = new MinOpsToMoveAllBallsToEachBox();
-        motmab.minOperations("001011");
+        // MinOpsToMoveAllBallsToEachBox motmab = new MinOpsToMoveAllBallsToEachBox();
+        // motmab.minOperations("001011");
 
+        MinTimeToCollectGarbage mtcg = new MinTimeToCollectGarbage();
+        mtcg.garbageCollection(new String[] { "G", "P", "GP", "GG" }, new int[] { 2, 4, 3 });
     }
 }
