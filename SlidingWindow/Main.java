@@ -71,7 +71,10 @@ public class Main {
         // System.out.println(Arrays.toString(ssb.getSubarrayBeauty(new int[] { -3, 1,
         // 2, -3, 0, -3 }, 2, 1)));
 
-        LongestEqualSubarray les = new LongestEqualSubarray();
-        System.out.println(les.longestEqualSubarray(List.of(1, 1, 2, 2, 1, 1), 2));
+        // LongestEqualSubarray les = new LongestEqualSubarray();
+        // System.out.println(les.longestEqualSubarray(List.of(1, 1, 2, 2, 1, 1), 2));
+
+        MaximizeConfusionOfExam mcoe = new MaximizeConfusionOfExam();
+        mcoe.maxConsecutiveAnswers("TTFTTFTT", 1);
     }
 }
