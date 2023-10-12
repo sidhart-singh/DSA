@@ -1031,5 +1031,18 @@ public class Main {
 
         // SortIntegerByPowerValue sibpv = new SortIntegerByPowerValue();
         // sibpv.getKth(12, 15, 2);
+
+        // GrayCode gc = new GrayCode();
+        // gc.grayCodeOptimal(2);
+
+        // CircularPermutationBinaryRepresentaton cpbr = new
+        // CircularPermutationBinaryRepresentaton();
+        // cpbr.circularPermutation(3, 2);
+
+        // PunishmentNumber pn = new PunishmentNumber();
+        // pn.punishmentNumber(37);
+
+        // NonDecreasingSubsequence nds = new NonDecreasingSubsequence();
+        // nds.findSubsequences(new int[] { 4, 6, 7, 7 });
     }
 }
