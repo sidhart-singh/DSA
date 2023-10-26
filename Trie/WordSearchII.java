@@ -97,7 +97,7 @@ public class WordSearchII {
         }
 
         System.out.println(res);
-        return res.stream().collect(Collectors.toList());
+        return res.stream().collect(Collectors.toList())
     }
 
 }
