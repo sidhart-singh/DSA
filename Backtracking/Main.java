@@ -2,6 +2,7 @@ package Backtracking;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 import java.util.function.LongToDoubleFunction;
 
 public class Main {
@@ -1025,9 +1026,8 @@ public class Main {
         // },
         // new int[][] { { 1, 0, 0 }, { 0, 0, 1 }, { 1, 1, 0 } });
 
-        // MaxAcheivableTransferRequests matr = new MaxAcheivableTransferRequests();
-        // matr.maximumRequests(5, new int[][] { { 0, 1 }, { 1, 0 }, { 0, 1 }, { 1, 2 },
-        // { 2, 0 }, { 3, 4 } });
+        MaxAcheivableTransferRequests matr = new MaxAcheivableTransferRequests();
+        matr.maximumRequests(3, new int[][] { { 1, 1 } });
 
         // SortIntegerByPowerValue sibpv = new SortIntegerByPowerValue();
         // sibpv.getKth(12, 15, 2);
@@ -1048,7 +1048,9 @@ public class Main {
         // MaxSplitPositiveEvenIntegers mspei = new MaxSplitPositiveEvenIntegers();
         // mspei.maximumEvenSplit(950);
 
-        ProbabilityTwoBoxesWSameDistinctBalls ptbwsdb = new ProbabilityTwoBoxesWSameDistinctBalls();
-        ptbwsdb.getProbability(new int[] { 2, 1, 1 });
+        // ProbabilityTwoBoxesWSameDistinctBalls ptbwsdb = new
+        // ProbabilityTwoBoxesWSameDistinctBalls();
+        // ptbwsdb.getProbability(new int[] { 2, 1, 1 });
+
     }
 }

@@ -1,21 +1,74 @@
 package Backtracking;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
-// TODO : Incomplete
 public class MaxAcheivableTransferRequests {
+
+    public void dfs(int[][] req, int index, int accept, List<Integer> temp, int[] res) {
+        if (index == req.length) {
+            for (int n : temp)
+                if (n != 0)
+                    return;
+            res[0] = Math.max(res[0], accept);
+            return;
+        }
+        // not accept
+        dfs(req, index + 1, accept, temp, res);
+
+        // modify for accept
+        temp.set(req[index][0], temp.get(req[index][0]) - 1);
+        temp.set(req[index][1], temp.get(req[index][1]) + 1);
+        dfs(req, index + 1, accept + 1, temp, res);
+
+        // reverse the change
+        temp.set(req[index][0], temp.get(req[index][0]) + 1);
+        temp.set(req[index][1], temp.get(req[index][1]) - 1);
+    }
+
+    // memoization doesn't improve the solution.
+    public int dfs1(int[][] req, int index, int accept, List<Integer> temp, int[] res, Map<Integer, Integer> dp) {
+        if (index == req.length) {
+            for (int n : temp)
+                if (n != 0)
+                    return 0;
+            return accept;
+        }
+        if (dp.containsKey(index))
+            return dp.get(index);
+
+        // not accept
+        res[0] = Math.max(res[0], dfs1(req, index + 1, accept, temp, res, dp));
+
+        // modify for accept
+        temp.set(req[index][0], temp.get(req[index][0]) - 1);
+        temp.set(req[index][1], temp.get(req[index][1]) + 1);
+        res[0] = Math.max(res[0], dfs1(req, index + 1, accept + 1, temp, res, dp));
+
+        // reverse the change
+        temp.set(req[index][0], temp.get(req[index][0]) + 1);
+        temp.set(req[index][1], temp.get(req[index][1]) - 1);
+
+        return res[0];
+    }
+
     public int maximumRequests(int n, int[][] requests) {
-        // {Node - List of requests}
-        Map<Integer, List<Integer>> map = new HashMap<>();
 
-        for (int[] r : requests)
-            map.computeIfAbsent(r[0], k -> new ArrayList<>()).add(r[1]);
+        int[] temp = new int[n];
+        Arrays.fill(temp, 0);
+        List<Integer> tempp = Arrays.stream(temp)
+                .mapToObj(Integer::valueOf)
+                .collect(Collectors.toList());
+        Map<Integer, Integer> dp = new HashMap<>();
+        int[] res = { 0 };
 
-        System.out.println(map);
+        dfs1(requests, 0, 0, tempp, res, dp);
 
-        return 0
+        System.out.println(res[0]);
+
+        return res[0];
     }
 }
