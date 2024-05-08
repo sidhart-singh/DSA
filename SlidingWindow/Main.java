@@ -74,7 +74,10 @@ public class Main {
         // LongestEqualSubarray les = new LongestEqualSubarray();
         // System.out.println(les.longestEqualSubarray(List.of(1, 1, 2, 2, 1, 1), 2));
 
-        MaximizeConfusionOfExam mcoe = new MaximizeConfusionOfExam();
-        mcoe.maxConsecutiveAnswers("TTFTTFTT", 1);
+        // MaximizeConfusionOfExam mcoe = new MaximizeConfusionOfExam();
+        // mcoe.maxConsecutiveAnswers("TTFTTFTT", 1);
+
+        LongestSubarrayAfterDeletingOneElement lsadoe = new LongestSubarrayAfterDeletingOneElement();
+        lsadoe.longestSubarray(new int[] { 0, 1, 1, 1, 0, 1, 1, 0, 1 });
     }
 }
