@@ -1,13 +1,17 @@
 package String;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class test {
     public static void main(String[] args) {
+
+    }
+
+    public static void function() {
         try (Scanner scanner = new Scanner(System.in)) {
             String[] inputNumbers = scanner.nextLine().split(" ");
             int q = Integer.MAX_VALUE;
-
             // Find the smallest number among input numbers
             for (String num : inputNumbers) {
                 int currentNum = Integer.parseInt(num);

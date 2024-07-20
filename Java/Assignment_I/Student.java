@@ -40,14 +40,15 @@ public class Student {
         this.marks = marks;
     }
 
-    Student(String name, int roll, int age, int marks){
+    Student(String name, int roll, int age, int marks) {
         this.name = name;
         this.roll = roll;
         this.age = age;
         this.marks = marks;
     }
+
     @Override
-    public String toString(){
+    public String toString() {
         return this.name + "--" + this.roll + "--" + this.age + "--" + this.marks;
     }
 
@@ -65,20 +66,16 @@ public class Student {
         db.sort((a, b) -> a.getName().compareTo(b.getName()));
         System.out.println("Based on name: " + db);
 
-
         /* Sorting on Roll: */
         db.sort((a, b) -> (a.getRoll() < b.getRoll()) ? -1 : 1);
         System.out.println("Based on roll: " + db);
 
-
         /* Sorting on Age: */
         db.sort((a, b) -> (a.getAge() < b.getAge()) ? -1 : 1);
         System.out.println("Based on age: " + db);
-
 
         /* Sorting on marks: */
         db.sort((a, b) -> (a.getMarks() < b.getMarks()) ? -1 : 1);
         System.out.println("Based on marks: " + db);
     }
 }
- 

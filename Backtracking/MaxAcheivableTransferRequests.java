@@ -1,6 +1,9 @@
 package Backtracking;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -58,11 +61,12 @@ public class MaxAcheivableTransferRequests {
     public int maximumRequests(int n, int[][] requests) {
 
         int[] temp = new int[n];
-        Arrays.fill(temp, 0);
-        List<Integer> tempp = Arrays.stream(temp)
-                .mapToObj(Integer::valueOf)
-                .collect(Collectors.toList());
+        Arrays.fill(temp, 0); // initial value = 0
+        // List<Integer> tempp = Arrays.stream(temp)
+        // .mapToObj(Integer::valueOf)
+        // .collect(Collectors.toList());
         Map<Integer, Integer> dp = new HashMap<>();
+        List<Integer> tempp = new ArrayList<>(Collections.nCopies(n, 0));
         int[] res = { 0 };
 
         dfs1(requests, 0, 0, tempp, res, dp);

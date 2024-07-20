@@ -1026,8 +1026,8 @@ public class Main {
         // },
         // new int[][] { { 1, 0, 0 }, { 0, 0, 1 }, { 1, 1, 0 } });
 
-        MaxAcheivableTransferRequests matr = new MaxAcheivableTransferRequests();
-        matr.maximumRequests(3, new int[][] { { 1, 1 } });
+        // MaxAcheivableTransferRequests matr = new MaxAcheivableTransferRequests();
+        // matr.maximumRequests(3, new int[][] { { 1, 1 } });
 
         // SortIntegerByPowerValue sibpv = new SortIntegerByPowerValue();
         // sibpv.getKth(12, 15, 2);
@@ -1052,5 +1052,10 @@ public class Main {
         // ProbabilityTwoBoxesWSameDistinctBalls();
         // ptbwsdb.getProbability(new int[] { 2, 1, 1 });
 
+        // MaximixeAfterNOperations mano = new MaximixeAfterNOperations();
+        // mano.maxScore(new int[] { 3, 4, 6, 8 });
+
+        NumberWSameConsecutiveDiffs nwscd = new NumberWSameConsecutiveDiffs();
+        nwscd.numsSameConsecDiff(3, 3);
     }
 }

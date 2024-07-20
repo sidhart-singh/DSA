@@ -48,12 +48,16 @@ public class ArrayListDemo {
         // first.sort((a, b) -> (a < b) ? -1 : 1);
 
         /*
-         * Using Comparator.naturalOrder() method Collections doesn't have a naturalOrder()
+         * Using Comparator.naturalOrder() method Collections doesn't have a
+         * naturalOrder()
          */
         first.sort(Comparator.naturalOrder());
         System.out.println("Ascending: " + first);
 
-        /* Using Collections.sort() with Collections.reverseOrder()/Comparator.reverseOrder() */
+        /*
+         * Using Collections.sort() with
+         * Collections.reverseOrder()/Comparator.reverseOrder()
+         */
         Collections.sort(first, Collections.reverseOrder());
         System.out.println("Descending: " + first);
 

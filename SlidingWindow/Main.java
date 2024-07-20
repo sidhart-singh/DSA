@@ -77,7 +77,11 @@ public class Main {
         // MaximizeConfusionOfExam mcoe = new MaximizeConfusionOfExam();
         // mcoe.maxConsecutiveAnswers("TTFTTFTT", 1);
 
-        LongestSubarrayAfterDeletingOneElement lsadoe = new LongestSubarrayAfterDeletingOneElement();
-        lsadoe.longestSubarray(new int[] { 0, 1, 1, 1, 0, 1, 1, 0, 1 });
+        // LongestSubarrayAfterDeletingOneElement lsadoe = new
+        // LongestSubarrayAfterDeletingOneElement();
+        // lsadoe.longestSubarray(new int[] { 0, 1, 1, 1, 0, 1, 1, 0, 1 });
+
+        SubtringsContainingAllThreeCharacters scatc = new SubtringsContainingAllThreeCharacters();
+        scatc.numberOfSubstrings("abcabc");
     }
 }

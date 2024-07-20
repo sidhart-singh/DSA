@@ -1,5 +1,11 @@
 package Arrays;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class Main {
     public static void main(String[] args) {
         // System.out.println((new BrickWall().leastBricks()));
@@ -89,7 +95,27 @@ public class Main {
         // same.findScore(new int[] { 10, 44, 10, 8, 48, 30, 17, 38, 41, 27, 16, 33, 45,
         // 45, 34, 30, 22, 3, 42, 42 });
 
-        MajorityElementII meii = new MajorityElementII();
-        meii.majorityElement(new int[] { 4, 2, 1, 1 });
+        // MajorityElementII meii = new MajorityElementII();
+        // meii.majorityElement(new int[] { 4, 2, 1, 1 });
+
+        // JumpGameII jg = new JumpGameII();
+        // jg.jump(new int[] { 2, 1 });
+
+        // MinTimeMakeRopeColorful mtrc = new MinTimeMakeRopeColorful();
+        // mtrc.minCost("aabaa", new int[] { 1, 2, 3, 4, 1 });
+
+        // MaximumSubarray ms = new MaximumSubarray();
+        // ms.maxSubArray(new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 });
+
+        // NumberGoodPairs ngp = new NumberGoodPairs();
+        // ngp.numberOfPairs(new int[] { 1, 3, 4 }, new int[] { 1, 3, 4 }, 1);
+
+        List<Long> arg = new ArrayList<Long>();
+        arg.add((long) 1);
+        arg.add((long) 2);
+        arg.add((long) 3);
+        arg.add((long) 4);
+        arg.add((long) 5);
+        test.findMin(arg, 1);
     }
 }

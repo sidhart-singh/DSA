@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "_2DArrays.test",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "ArrayListDemo2",
+      "request": "launch",
+      "mainClass": "Java.Assignment_I.ArrayListDemo2",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "TwoHeaps.Main",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Backtracking.Main",
+      "projectName": "DSA_daa39ebe"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "Deque.Main",
